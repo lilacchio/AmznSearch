@@ -41,26 +41,26 @@ You can configure the Amazon Autocomplete using various parameters. All the para
 ## Getting Started
 
 1. Clone the repository
-   \`\`\`
+   `
    git clone <repository_url>
-   \`\`\`
+   `
    
 2. Install dependencies
-   \`\`\`
+   `
    npm install
-   \`\`\`
+   `
 
 3. Run the development server
-   \`\`\`
+   `
    npm start
-   \`\`\`
+   `
 
 ### How to Build
 
 To build the project for production, simply run:
 
-\`\`\`bash
+`
 npm run build
-\`\`\`
+`
 
 After building, you'll find the optimized code in the `dist` folder. Open `index.html` from this folder to run the application.
