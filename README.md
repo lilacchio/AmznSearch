@@ -3,6 +3,9 @@
 This React-based project provides an Amazon-like search autocomplete functionality.
 Inspired by https://github.com/caroso1222/amazon-autocomplete since that project is no longer maintained.
 
+## Demo
+https://lilacchio.github.io/AmznSearch/
+
 ## Features
 
 - **Tiny**: Built using React and bundled using webpack, so it's super lightweight.
