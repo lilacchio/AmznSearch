@@ -16,7 +16,7 @@ Inspired by https://github.com/caroso1222/amazon-autocomplete since that project
 
 You can configure the Amazon Autocomplete using various parameters. All the parameters are defined in `src/AmznSearch.js`. Below is the set of all possible parameters:
 
-\`\`\`json
+`
 {
   "session-id": "133-2190809-5709766",
   "customer-id": "A1CNYR04B8CZOZ",
@@ -36,7 +36,7 @@ You can configure the Amazon Autocomplete using various parameters. All the para
   "fb": 1,
   "suggestion-type": "KEYWORD"
 }
-\`\`\`
+`
 
 ## Getting Started
 
