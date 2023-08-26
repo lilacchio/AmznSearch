@@ -1,0 +1,45 @@
+/* Container for the entire autocomplete */
+#autocomplete-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Style the input box */
+  #autocomplete-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  /* Suggestion list container */
+  #suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Individual suggestion item */
+  #suggestions .suggestion-item {
+    padding: 12px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Suggestion item hover state */
+  #suggestions .suggestion-item:hover {
+    background-color: #f1f1f1;
+  }
+  
